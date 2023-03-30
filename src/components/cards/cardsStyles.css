@@ -1,0 +1,53 @@
+#card-box {
+    margin-top: .5em;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px -2px rgba(0,0,0,0.4);
+    padding: 2em;
+    backdrop-filter: blur(12px);
+    background-color: rgba(255,255,255,.7);
+  }
+#cc-top {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    display: grid;
+    grid-template-rows: 25% 70% 5%;
+}
+.switch-degrees {
+    position: absolute;
+    top: 0;
+    right: 1.5em;
+    display: flex;
+    column-gap: .25em;
+ }
+ 
+.cc-text {
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
+.f-card-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.f-card {
+    display: grid;
+    place-items: center;
+    padding: 1em;
+    row-gap: .15em;
+}
+.g-border {
+    border: 1px solid rgba(0,0,0,.1);
+}
+.precip-prob {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: #4B77F0;
+    margin-top: .5em;
+}
+.not-visible {
+    visibility: hidden;
+}

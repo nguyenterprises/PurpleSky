@@ -1,0 +1,29 @@
+#weather-container {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-width: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mapboxgl-ctrl-geocoder {
+  width: 130%!important;
+  font-size: 1rem!important;
+  border-radius: 20px!important;
+}
+
+.mapboxgl-ctrl-geocoder--input:focus {
+  outline: none!important;
+}
+
+@media screen and (max-width: 450px) {
+  .mapboxgl-ctrl-geocoder {
+    width: 100%!important;
+  }
+}
+
+

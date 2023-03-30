@@ -1,0 +1,1 @@
+export const defaultCoords = { latitude: 40.7306, longitude: -73.9866, city: "New York City", state: "New York", timeZone: "America/New_York" }
