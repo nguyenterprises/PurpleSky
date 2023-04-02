@@ -1,10 +1,14 @@
 # PurpleSky
 
-Why PurpleSky?:
-
-  On the computer I used to check the weather with my original go-to - DarkSky.net, which unfortunately is no more thanks to Apple's buyout. Aside from being eerily accurate at times, the site's minimalistic layout yet direct and to the point format was visually appealing.
-
-  PurpleSky takes cues from DarkSky's look and feel. Although it doesn't use the same proprietary radar technology for weather prediction, I displayed the charts and visuals to emulate DarkSky's features. All design was done by hand with plain CSS. Many times I was tempted to just use a package like Tailwind or MUI, but I decided to stick with unassisted styling.
+Featuress:
+ - Farenheit to Celcius toggle option
+ - Wind arrow moves with wind direction
+ - UV Index color changes with index
+ - NOAA weather.gov alerts and descriptions appear when applicable
+ - Icons, backgrounds and timelines all sync with local time
+ - CSS responsive to screen size
+ - Weather layer loops over map
+ - Rain probability appears on card chart when applicable
 
 Code & Design:
  - ReactJS for code
@@ -25,10 +29,6 @@ Additional Packages:
  - React-Use-Measure for element positioning
  - Axios for APIs
  - DotEnv for keys
-
-Afterthoughts:
-
-The program is more extensive than it appears on the surface. Several functions were compiled for adjusting the UNIX values with local time zones and mapping them for days and hours. Creating and looping through the bar charts from scratch was a bit lengthy but proved successful. The CSS was dependent on grid and flex layout properties. The program became more complicated than originally planned, hence the surplus amount of useState hooks utilized. I started out with just a few, but halfway through, I determined it would have been cleaner if I had used the useReducer hook. For efficiency, I also even considered using context api or even Redux (on a scalable level, if necessary). However, to be consistent, I followed through with just useState hooks and passed props through components. Overall, it was a fruitful project that I may scale up in the future with a backend and themed backgrounds. Styling was directly typed into the component, so any CSS has been removed for ease and clarity in reading. If you would like to see it along with the styling, you are welcome to contact me directly - hanh@nguyenterprises.work.
 
 Questions:
 - Was the base code written from scratch or was it cloned from github? Written from scratch
