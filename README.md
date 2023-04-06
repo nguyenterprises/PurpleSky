@@ -3,7 +3,7 @@
 
 ![Image](/public/purplesky_screenshot)
 
-Demo - https://purplesky.netlify.app/
+Demo: https://purplesky.netlify.app/
 
 Features:
  - Farenheit to Celcius toggle option
