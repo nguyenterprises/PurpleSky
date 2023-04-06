@@ -1,6 +1,8 @@
 # PurpleSky
 
-Featuress:
+
+![Image](/public/purplesky_screenshot)
+Features:
  - Farenheit to Celcius toggle option
  - Wind arrow moves with wind direction
  - UV Index color changes with index
