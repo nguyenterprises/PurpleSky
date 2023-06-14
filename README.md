@@ -6,7 +6,7 @@
 Demo: https://purplesky.netlify.app/
 
 Features:
- - Farenheit to Celcius toggle option
+ - Fahrenheit to Celsius toggle option
  - Wind arrow moves with wind direction
  - UV Index color changes with index
  - NOAA weather.gov alerts and descriptions appear when applicable
